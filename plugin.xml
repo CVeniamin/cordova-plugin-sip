@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-sip"
-    version="1.0.0">
+    version="1.0.1">
   <name>SIP - LinPhone</name>
   <description>A plugin to integrate linphone features to cordova</description>
   <license>MIT</license>
   <keywords>sip,cordova,phonegap,linphone,liblinphone</keywords>
 
   <engines>
-    <engine name="cordova-android" version=">=4.0.0-dev" />
-    <engine name="cordova-ios" version=">=4.0.0-dev" />
-    <engine name="cordova-wp8" version=">=4.0.0-dev" />
+    <engine name="cordova-android" version=">=6" />
+    <engine name="cordova-ios" version=">=4" />
+    <engine name="cordova" version=">=7.1.0" />
   </engines>
 
   <!-- android -->
   <platform name="android">
-    <config-file parent="/*" target="res/xml/config.xml">
+    <config-file target="res/xml/config.xml" parent="/*">
       <feature name="Linphone">
         <param name="android-package" value="com.sip.linphone.Linphone" />
       </feature>
+    </config-file>
+      
+    <js-module src="www/cordova-plugins-sip.js" name="linphone">
+        <clobbers target="sip" />
+        <merges target="cordova.plugins.sip" />
+    </js-module>
+      
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+      <uses-permission android:name="android.permission.RECORD_AUDIO" />
+      <uses-permission android:name="android.permission.CAMERA" />
+      <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+      <uses-permission android:name="android.permission.WAKE_LOCK" />
+      <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    </config-file>
+      
+    <config-file target="AndroidManifest.xml" parent="/manifest/application">
+      <activity android:name="com.sip.linphone.LinphoneMiniActivity" android:theme="@android:style/Theme.Black.NoTitleBar" />
     </config-file>
 
     <source-file src="src/android/src/Linphone.java" target-dir="src/com/sip/linphone" />
@@ -102,20 +119,6 @@
     <lib-file src="src/android/libs/x86/libmssilk.so" arch="x86" />
     <lib-file src="src/android/libs/x86/libmswebrtc.so" arch="x86" />
     <lib-file src="src/android/libs/x86/libortp-x86.so" arch="x86" />
-
-    <js-module src="www/cordova-plugins-sip.js" name="linphone">
-      <merges target="cordova.plugins.sip" />
-    </js-module>
-    <config-file target="AndroidManifest.xml" parent="/*">
-      <uses-permission android:name="android.permission.RECORD_AUDIO" />
-      <uses-permission android:name="android.permission.CAMERA" />
-      <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
-      <uses-permission android:name="android.permission.WAKE_LOCK" />
-      <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    </config-file>
-    <config-file target="AndroidManifest.xml" parent="/manifest/application">
-      <activity android:name="com.sip.linphone.LinphoneMiniActivity" android:theme="@android:style/Theme.Black.NoTitleBar" />
-    </config-file>
   </platform>
 
   <!-- ios -->
@@ -129,7 +132,6 @@
     <source-file src="src/ios/Linphone.m"/>
 
     <header-file src="src/ios/libs/apple-darwin/include/" />
-
 
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsamr.a" target-dir="lib/mediastreamer/plugins" />
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsbcg729.a" target-dir="lib/mediastreamer/plugins" />
@@ -192,16 +194,5 @@
     </js-module>
 
 
-  </platform>
-
-  <!-- wp8 -->
-  <platform name="wp8">
-    <config-file target="config.xml" parent="/*">
-      <feature name="Linphone">
-        <param name="wp-package" value="Linphone"/>
-      </feature>
-    </config-file>
-
-    <source-file src="src/wp/Linphone.cs" />
   </platform>
 </plugin>
