@@ -70,38 +70,38 @@
     <source-file src="src/android/libs/x86/libmswebrtc.so" target-dir="libs/x86" />
     <source-file src="src/android/libs/x86/libortp-x86.so" target-dir="libs/x86" />-->
       
-    <source-file src="src/android/libs/arm64-v8a/libbctoolbox-arm64-v8a.so" arch="x64"/>
-    <source-file src="src/android/libs/arm64-v8a/libbctoolbox-tester-arm64-v8a.so" arch="x64"/>
-    <source-file src="src/android/libs/arm64-v8a/libgnustl_shared.so" arch="x64"/>
-    <source-file src="src/android/libs/arm64-v8a/liblinphone-arm64-v8a.so" arch="x64" />
-    <source-file src="src/android/libs/arm64-v8a/liblinphonetester-arm64-v8a.so" arch="x64"/>
-    <source-file src="src/android/libs/arm64-v8a/libmediastreamer_base-arm64-v8a.so" arch="x64"/>
-    <source-file src="src/android/libs/arm64-v8a/libmediastreamer_voip-arm64-v8a.so" arch="x64" />
-    <source-file src="src/android/libs/arm64-v8a/libmssilk.so" arch="x64" />
-    <source-file src="src/android/libs/arm64-v8a/libmswebrtc.so" arch="x64" />
-    <source-file src="src/android/libs/arm64-v8a/libortp-arm64-v8a.so" arch="x64" />
+    <lib-file src="src/android/libs/arm64-v8a/libbctoolbox-arm64-v8a.so" arch="x64"/>
+    <lib-file src="src/android/libs/arm64-v8a/libbctoolbox-tester-arm64-v8a.so" arch="x64"/>
+    <lib-file src="src/android/libs/arm64-v8a/libgnustl_shared.so" arch="x64"/>
+    <lib-file src="src/android/libs/arm64-v8a/liblinphone-arm64-v8a.so" arch="x64" />
+    <lib-file src="src/android/libs/arm64-v8a/liblinphonetester-arm64-v8a.so" arch="x64"/>
+    <lib-file src="src/android/libs/arm64-v8a/libmediastreamer_base-arm64-v8a.so" arch="x64"/>
+    <lib-file src="src/android/libs/arm64-v8a/libmediastreamer_voip-arm64-v8a.so" arch="x64" />
+    <lib-file src="src/android/libs/arm64-v8a/libmssilk.so" arch="x64" />
+    <lib-file src="src/android/libs/arm64-v8a/libmswebrtc.so" arch="x64" />
+    <lib-file src="src/android/libs/arm64-v8a/libortp-arm64-v8a.so" arch="x64" />
 
-    <source-file src="src/android/libs/armeabi-v7a/libbctoolbox-armeabi-v7a.so" arch="ARM" />
-    <source-file src="src/android/libs/armeabi-v7a/libbctoolbox-tester-armeabi-v7a.so" arch="ARM" />
-    <source-file src="src/android/libs/armeabi-v7a/libgnustl_shared.so" arch="ARM" />
-    <source-file src="src/android/libs/armeabi-v7a/liblinphone-armeabi-v7a.so" arch="ARM" />
-    <source-file src="src/android/libs/armeabi-v7a/liblinphonetester-armeabi-v7a.so" arch="ARM" />
-    <source-file src="src/android/libs/armeabi-v7a/libmediastreamer_base-armeabi-v7a.so" arch="ARM" />
-    <source-file src="src/android/libs/armeabi-v7a/libmediastreamer_voip-armeabi-v7a.so" arch="ARM" />
-    <source-file src="src/android/libs/armeabi-v7a/libmssilk.so" arch="ARM" />
-    <source-file src="src/android/libs/armeabi-v7a/libmswebrtc.so" arch="ARM" />
-    <source-file src="src/android/libs/armeabi-v7a/libortp-armeabi-v7a.so" arch="ARM" />
+    <lib-file src="src/android/libs/armeabi-v7a/libbctoolbox-armeabi-v7a.so" arch="ARM" />
+    <lib-file src="src/android/libs/armeabi-v7a/libbctoolbox-tester-armeabi-v7a.so" arch="ARM" />
+    <lib-file src="src/android/libs/armeabi-v7a/libgnustl_shared.so" arch="ARM" />
+    <lib-file src="src/android/libs/armeabi-v7a/liblinphone-armeabi-v7a.so" arch="ARM" />
+    <lib-file src="src/android/libs/armeabi-v7a/liblinphonetester-armeabi-v7a.so" arch="ARM" />
+    <lib-file src="src/android/libs/armeabi-v7a/libmediastreamer_base-armeabi-v7a.so" arch="ARM" />
+    <lib-file src="src/android/libs/armeabi-v7a/libmediastreamer_voip-armeabi-v7a.so" arch="ARM" />
+    <lib-file src="src/android/libs/armeabi-v7a/libmssilk.so" arch="ARM" />
+    <lib-file src="src/android/libs/armeabi-v7a/libmswebrtc.so" arch="ARM" />
+    <lib-file src="src/android/libs/armeabi-v7a/libortp-armeabi-v7a.so" arch="ARM" />
 
-    <source-file src="src/android/libs/x86/libbctoolbox-tester-x86.so" arch="x86" />
-    <source-file src="src/android/libs/x86/libbctoolbox-x86.so" arch="x86" />
-    <source-file src="src/android/libs/x86/libgnustl_shared.so" arch="x86" />
-    <source-file src="src/android/libs/x86/liblinphonetester-x86.so" arch="x86" />
-    <source-file src="src/android/libs/x86/liblinphone-x86.so" arch="x86" />
-    <source-file src="src/android/libs/x86/libmediastreamer_base-x86.so" arch="x86" />
-    <source-file src="src/android/libs/x86/libmediastreamer_voip-x86.so"arch="x86" />
-    <source-file src="src/android/libs/x86/libmssilk.so" arch="x86" />
-    <source-file src="src/android/libs/x86/libmswebrtc.so" arch="x86" />
-    <source-file src="src/android/libs/x86/libortp-x86.so" arch="x86" />
+    <lib-file src="src/android/libs/x86/libbctoolbox-tester-x86.so" arch="x86" />
+    <lib-file src="src/android/libs/x86/libbctoolbox-x86.so" arch="x86" />
+    <lib-file src="src/android/libs/x86/libgnustl_shared.so" arch="x86" />
+    <lib-file src="src/android/libs/x86/liblinphonetester-x86.so" arch="x86" />
+    <lib-file src="src/android/libs/x86/liblinphone-x86.so" arch="x86" />
+    <lib-file src="src/android/libs/x86/libmediastreamer_base-x86.so" arch="x86" />
+    <lib-file src="src/android/libs/x86/libmediastreamer_voip-x86.so"arch="x86" />
+    <lib-file src="src/android/libs/x86/libmssilk.so" arch="x86" />
+    <lib-file src="src/android/libs/x86/libmswebrtc.so" arch="x86" />
+    <lib-file src="src/android/libs/x86/libortp-x86.so" arch="x86" />
 
     <js-module src="www/cordova-plugins-sip.js" name="linphone">
       <merges target="cordova.plugins.sip" />
