@@ -12,7 +12,13 @@
     <engine name="cordova-ios" version=">=4" />
     <engine name="cordova" version=">=7.1.0" />
   </engines>
-
+  
+  <asset src="www/cordova-plugins-sip.js" target="js/cordova-plugins-sip.js"/>
+    
+  <js-module src="www/cordova-plugins-sip.js" name="SIP">
+    <clobbers target="SIP" />
+  </js-module>
+    
   <!-- android -->
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
@@ -21,10 +27,7 @@
       </feature>
     </config-file>
       
-    <js-module src="www/cordova-plugins-sip.js" name="linphone">
-        <clobbers target="sip" />
-        <merges target="cordova.plugins.sip" />
-    </js-module>
+    
       
     <config-file target="AndroidManifest.xml" parent="/manifest">
       <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -188,11 +191,5 @@
     <framework src="libstdc++.6.tbd" />
     <framework src="libstdc++.tbd" />
     <framework src="libc++abi.tbd" />
-
-    <js-module src="www/cordova-plugins-sip.js" name="linphone">
-      <merges target="cordova.plugins.sip" />
-    </js-module>
-
-
   </platform>
 </plugin>
