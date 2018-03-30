@@ -8,9 +8,7 @@
   <keywords>sip,cordova,phonegap,linphone,liblinphone</keywords>
 
   <engines>
-    <engine name="cordova-android" version=">=6" />
-    <engine name="cordova-ios" version=">=4" />
-    <engine name="cordova" version=">=7.1.0" />
+    <engine name="cordova" version=">=3.4.0"/>
   </engines>
   
   <asset src="www/cordova-plugins-sip.js" target="js/cordova-plugins-sip.js"/>
@@ -27,7 +25,7 @@
       </feature>
     </config-file>
       
-    <config-file target="AndroidManifest.xml" parent="/manifest">
+    <config-file target="AndroidManifest.xml" parent="/*">
       <uses-permission android:name="android.permission.RECORD_AUDIO" />
       <uses-permission android:name="android.permission.CAMERA" />
       <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
