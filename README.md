@@ -15,7 +15,7 @@
 
 <h4>You must import these files in the  Bridging Header File</h4>
 
-```
+```objc
     #include "Plugins/cordova-plugin-sip/include/linphone/lpconfig.h"
     #include "Plugins/cordova-plugin-sip/include/linphone/linphonecore.h"
     #include "Plugins/cordova-plugin-sip/include/linphone/linphonecore_utils.h"
@@ -24,7 +24,7 @@
 <h4>IOS Permissions</h4>
   
 You must include following permissions
-```
+```xml
         <key>NSCameraUsageDescription</key>
         <string>Description Why you use this permission</string>
         <key>NSMicrophoneUsageDescription</key>
@@ -40,7 +40,7 @@ Deploy and Run!
 
 <h3>Usage</h3>
 
-```
+```js
     var sipManager = {
         register: function () {
             cordova.plugins.sip.login('203', '203', '192.168.1.111:5060', function (e) {
