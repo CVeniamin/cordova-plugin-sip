@@ -133,7 +133,9 @@
     <header-file src="src/ios/Linphone.h"/>
     <source-file src="src/ios/Linphone.m"/>
 
-    <header-file src="src/ios/libs/apple-darwin/include/" />
+    <header-file src="src/ios/libs/apple-darwin/include/linphone/lpconfig.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore_utils.h" />
 
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsamr.a" target-dir="lib/mediastreamer/plugins" />
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsbcg729.a" target-dir="lib/mediastreamer/plugins" />
@@ -173,8 +175,6 @@
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libvpx.a" target-dir="lib" />
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libx264.a" target-dir="lib" />
 
-    <source-file src="src/ios/libs/apple-darwin/share/" />
-
     <framework src="AVFoundation.framework" />
     <framework src="AudioToolbox.framework" />
     <framework src="CoreFoundation.framework" />
@@ -189,5 +189,13 @@
     <framework src="libstdc++.6.tbd" />
     <framework src="libstdc++.tbd" />
     <framework src="libc++abi.tbd" />
+    
+    <framework src="src/ios/libs/apple-darwin/include" custom="true" />
+    <framework src="src/ios/libs/apple-darwin/include/belle-sip" custom="true" />
+    <framework src="src/ios/libs/apple-darwin/include/ortp" custom="true" />
+    <framework src="src/ios/libs/apple-darwin/include/linphone" custom="true" />
+    <framework src="src/ios/libs/apple-darwin/include/mediastreamer2" custom="true" />
+    <source-file src="src/ios/libs/apple-darwin/share/" />
+    
   </platform>
 </plugin>
