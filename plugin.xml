@@ -130,13 +130,22 @@
         <param name="ios-package" value="Linphone"/>
       </feature>
     </config-file>
+    
+    <source-file framework="true" src="src/ios/libs/apple-darwin/include" target-dir="include" />
+    <source-file framework="true" src="src/ios/libs/apple-darwin/include/belle-sip" target-dir="include/belle-sip" />
+    <source-file framework="true" src="src/ios/libs/apple-darwin/include/ortp" target-dir="include/ortp" />
+    <source-file framework="true" src="src/ios/libs/apple-darwin/include/linphone" target-dir="include/linphone" />
+    <source-file framework="true" src="src/ios/libs/apple-darwin/include/mediastreamer2" target-dir="include/mediastreamer2" />
+    
+    <preference name="ios-XCBuildConfiguration-HEADER\_SEARCH\_PATHS" value="'$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/src/ios/libs/apple-darwin/include' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/src/ios/libs/apple-darwin/include/linphone' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/src/ios/libs/apple-darwin/include/ortp' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/src/ios/libs/apple-darwin/include/belle-sip' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/src/ios/libs/apple-darwin/include/mediastreamer2' '$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include' '$(BUILT_PRODUCTS_DIR)'" xcconfigEnforce="true" />
+    <preference name="ios-XCBuildConfiguration-HEADER\_SEARCH\_PATHS" value="'$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/include' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/include/linphone' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/include/ortp' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/include/belle-sip' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/include/mediastreamer2' '$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include' '$(BUILT_PRODUCTS_DIR)'" xcconfigEnforce="true" />
+    
     <header-file src="src/ios/Linphone.h"/>
     <source-file src="src/ios/Linphone.m"/>
 
     <header-file src="src/ios/libs/apple-darwin/include/linphone/lpconfig.h" />
     <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore.h" />
     <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore_utils.h" />
-    
 
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsamr.a" target-dir="lib/mediastreamer/plugins" />
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsbcg729.a" target-dir="lib/mediastreamer/plugins" />
@@ -176,11 +185,6 @@
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libvpx.a" target-dir="lib" />
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libx264.a" target-dir="lib" />
 
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/belle-sip" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/ortp" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/linphone" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/mediastreamer2" target-dir="lib" />
     
     <framework src="AVFoundation.framework" />
     <framework src="AudioToolbox.framework" />
@@ -196,6 +200,7 @@
     <framework src="libstdc++.6.tbd" />
     <framework src="libstdc++.tbd" />
     <framework src="libc++abi.tbd" />
+    
     
     <!--<framework src="src/ios/libs/apple-darwin/include" custom="true" />
     <framework src="src/ios/libs/apple-darwin/include/belle-sip" custom="true" />
