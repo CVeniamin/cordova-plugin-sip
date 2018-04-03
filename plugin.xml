@@ -137,8 +137,10 @@
     <source-file framework="true" src="src/ios/libs/apple-darwin/include/linphone" target-dir="include/linphone" />
     <source-file framework="true" src="src/ios/libs/apple-darwin/include/mediastreamer2" target-dir="include/mediastreamer2" />
     
+    <!--
     <preference name="ios-XCBuildConfiguration-HEADER\_SEARCH\_PATHS" value="'$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/src/ios/libs/apple-darwin/include' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/src/ios/libs/apple-darwin/include/linphone' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/src/ios/libs/apple-darwin/include/ortp' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/src/ios/libs/apple-darwin/include/belle-sip' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/src/ios/libs/apple-darwin/include/mediastreamer2' '$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include' '$(BUILT_PRODUCTS_DIR)'" xcconfigEnforce="true" />
     <preference name="ios-XCBuildConfiguration-HEADER\_SEARCH\_PATHS" value="'$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/include' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/include/linphone' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/include/ortp' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/include/belle-sip' '$(SRCROOT)/$(PRODUCT_NAME)/Plugins/cordova-plugin-sip/include/mediastreamer2' '$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include' '$(BUILT_PRODUCTS_DIR)'" xcconfigEnforce="true" />
+    -->
     
     <header-file src="src/ios/Linphone.h"/>
     <source-file src="src/ios/Linphone.m"/>
