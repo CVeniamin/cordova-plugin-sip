@@ -138,89 +138,133 @@
       </feature>
     </config-file>
     
-    <header-file src="src/ios/libs/apple-darwin/include/linphone/lpconfig.h" /> 
-    <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore.h" />
-    <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore_utils.h" />
-    <header-file src="src/ios/libs/apple-darwin/include/belle-sip/belle-sip.h" />
-    <header-file src="src/ios/libs/apple-darwin/include/ortp/ortp.h" />
-    <header-file src="src/ios/libs/apple-darwin/include/belle-sip/belle-sdp.h" />
-    <header-file src="src/ios/libs/apple-darwin/include/belle-sip/belle-sip.h" />
-    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/mediastream.h" />
-    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/msaudiomixer.h" />
-    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/msaudiomixer.h" />
-    
     <header-file src="src/ios/Linphone.h"/>
     <source-file src="src/ios/Linphone.m"/>
-    
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3baserecognizer.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3basetreeadaptor.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3bitset.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3collections.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3commontoken.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3commontree.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3commontreeadaptor.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3config.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3convertutf.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3cyclicdfa.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3debugeventlistener.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3defs.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3encodings.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3errors.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3exceptions.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3filestream.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3input.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3interfaces.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3intstream.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3lexer.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3memory.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3parser.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3parsetree.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3recognizersharedstate.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3rewritestreams.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3string.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3tokenstream.h"/>
-    <header-file src="src/ios/libs/apple-darwin/include/antlr3treeparser.h"/>
-    
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsamr.a" target-dir="lib/mediastreamer/plugins" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsbcg729.a" target-dir="lib/mediastreamer/plugins" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsopenh264.a" target-dir="lib/mediastreamer/plugins" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmssilk.a" target-dir="lib/mediastreamer/plugins" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmswebrtc.a" target-dir="lib/mediastreamer/plugins" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsx264.a" target-dir="lib/mediastreamer/plugins" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libantlr3c.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libavcodec.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libavutil.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libbcg729.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libbctoolbox.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libbellesip.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libbzrtp.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libcorec.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libcunit.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libebml2.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libgsm.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/liblinphone.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/liblinphonetester.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libmatroska2.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libmediastreamer_base.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libmediastreamer_voip.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libopencore-amrnb.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libopencore-amrwb.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libopenh264.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libopus.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libortp.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libpolarssl.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libspeex.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libspeexdsp.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libsrtp.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libswresample.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libswscale.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libtunnel.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libvo-amrwbenc.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libvpx.a" target-dir="lib" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libx264.a" target-dir="lib" />
 
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/linphone.a" target-dir="include" />
+    <header-file src="src/ios/libs/include/linphone/lpconfig.h" /> 
+    <header-file src="src/ios/libs/include/linphone/linphonecore.h" />
+    <header-file src="src/ios/libs/include/linphone/linphonecore_utils.h" />
+
+    <!--Belle-sip-->
+    <header-file src="src/ios/libs/include/belle-sip/auth-helper.h" />
+    <header-file src="src/ios/libs/include/belle-sip/belle-sdp.h" />
+    <header-file src="src/ios/libs/include/belle-sip/belle-sip.h" />
+    <header-file src="src/ios/libs/include/belle-sip/bodyhandler.h" />
+    <header-file src="src/ios/libs/include/belle-sip/defs.h" />
+    <header-file src="src/ios/libs/include/belle-sip/dict.h" />
+    <header-file src="src/ios/libs/include/belle-sip/generic-uri.h" />
+    <header-file src="src/ios/libs/include/belle-sip/headers.h" />
+    <header-file src="src/ios/libs/include/belle-sip/http-listener.h" />
+    <header-file src="src/ios/libs/include/belle-sip/http-message.h" />
+    <header-file src="src/ios/libs/include/belle-sip/http-provider.h" />
+    <header-file src="src/ios/libs/include/belle-sip/list.h" />
+    <header-file src="src/ios/libs/include/belle-sip/listerner.h" />
+    <header-file src="src/ios/libs/include/belle-sip/listeningpoint.h" />
+    <header-file src="src/ios/libs/include/belle-sip/mainloop.h" />
+    <header-file src="src/ios/libs/include/belle-sip/message.h" />
+    <header-file src="src/ios/libs/include/belle-sip/object.h" />
+    <header-file src="src/ios/libs/include/belle-sip/parameters.h" />
+    <header-file src="src/ios/libs/include/belle-sip/provider.h" />
+    <header-file src="src/ios/libs/include/belle-sip/resolver.h" />
+    <header-file src="src/ios/libs/include/belle-sip/sip-uri.h" />
+    <header-file src="src/ios/libs/include/belle-sip/sipstack.h" />
+    <header-file src="src/ios/libs/include/belle-sip/transaction.h" />
+    <header-file src="src/ios/libs/include/belle-sip/types.h" />
+    <header-file src="src/ios/libs/include/belle-sip/utils.h" />
+    <header-file src="src/ios/libs/include/belle-sip/wakelock.h" />
+
+    <!--ortp-->
+    <header-file src="src/ios/libs/include/ortp/b64.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/event.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/logging.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/ortp.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/payloadtype.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/port.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/rtcp.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/rtp.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/rtpprofile.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/rtpsession.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/rtpsignaltable.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/sessionset.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/str_utils.h" target-dir="ortp" />
+    <header-file src="src/ios/libs/include/ortp/telephonyevents.h" target-dir="ortp" />
+
+    <!--mediastream-->
+    <header-file src="src/ios/libs/include/mediastreamer2/mediastream.h" target-dir="mediastreamer2" />
+    <header-file src="src/ios/libs/include/mediastreamer2/mscommon.h" target-dir="mediastreamer2"/>
+    <header-file src="src/ios/libs/include/mediastreamer2/msvideo.h" target-dir="mediastreamer2"/>
+    <header-file src="src/ios/libs/include/mediastreamer2/bitratecontrol.h" target-dir="mediastreamer2"/>
+
+    <!--antlr3-->
+    <header-file src="src/ios/libs/include/antlr3.h"/>
+    <header-file src="src/ios/libs/include/antlr3baserecognizer.h"/>
+    <header-file src="src/ios/libs/include/antlr3basetreeadaptor.h"/>
+    <header-file src="src/ios/libs/include/antlr3bitset.h"/>
+    <header-file src="src/ios/libs/include/antlr3collections.h"/>
+    <header-file src="src/ios/libs/include/antlr3commontoken.h"/>
+    <header-file src="src/ios/libs/include/antlr3commontree.h"/>
+    <header-file src="src/ios/libs/include/antlr3commontreeadaptor.h"/>
+    <header-file src="src/ios/libs/include/antlr3config.h"/>
+    <header-file src="src/ios/libs/include/antlr3convertutf.h"/>
+    <header-file src="src/ios/libs/include/antlr3cyclicdfa.h"/>
+    <header-file src="src/ios/libs/include/antlr3debugeventlistener.h"/>
+    <header-file src="src/ios/libs/include/antlr3defs.h"/>
+    <header-file src="src/ios/libs/include/antlr3encodings.h"/>
+    <header-file src="src/ios/libs/include/antlr3errors.h"/>
+    <header-file src="src/ios/libs/include/antlr3exceptions.h"/>
+    <header-file src="src/ios/libs/include/antlr3filestream.h"/>
+    <header-file src="src/ios/libs/include/antlr3input.h"/>
+    <header-file src="src/ios/libs/include/antlr3interfaces.h"/>
+    <header-file src="src/ios/libs/include/antlr3intstream.h"/>
+    <header-file src="src/ios/libs/include/antlr3lexer.h"/>
+    <header-file src="src/ios/libs/include/antlr3memory.h"/>
+    <header-file src="src/ios/libs/include/antlr3parser.h"/>
+    <header-file src="src/ios/libs/include/antlr3parsetree.h"/>
+    <header-file src="src/ios/libs/include/antlr3recognizersharedstate.h"/>
+    <header-file src="src/ios/libs/include/antlr3rewritestreams.h"/>
+    <header-file src="src/ios/libs/include/antlr3string.h"/>
+    <header-file src="src/ios/libs/include/antlr3tokenstream.h"/>
+    <header-file src="src/ios/libs/include/antlr3treeparser.h"/>
+    
+    <source-file framework="true" src="src/ios/libs/lib/mediastreamer/plugins/libmsamr.a" target-dir="lib/mediastreamer/plugins" />
+    <source-file framework="true" src="src/ios/libs/lib/mediastreamer/plugins/libmsbcg729.a" target-dir="lib/mediastreamer/plugins" />
+    <source-file framework="true" src="src/ios/libs/lib/mediastreamer/plugins/libmsopenh264.a" target-dir="lib/mediastreamer/plugins" />
+    <source-file framework="true" src="src/ios/libs/lib/mediastreamer/plugins/libmssilk.a" target-dir="lib/mediastreamer/plugins" />
+    <source-file framework="true" src="src/ios/libs/lib/mediastreamer/plugins/libmswebrtc.a" target-dir="lib/mediastreamer/plugins" />
+    <source-file framework="true" src="src/ios/libs/lib/mediastreamer/plugins/libmsx264.a" target-dir="lib/mediastreamer/plugins" />
+    <source-file framework="true" src="src/ios/libs/lib/libantlr3c.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libavcodec.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libavutil.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libbcg729.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libbctoolbox.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libbellesip.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libbzrtp.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libcorec.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libcunit.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libebml2.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libgsm.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/liblinphone.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/liblinphonetester.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libmatroska2.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libmediastreamer_base.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libmediastreamer_voip.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libopencore-amrnb.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libopencore-amrwb.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libopenh264.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libopus.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libortp.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libpolarssl.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libspeex.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libspeexdsp.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libsrtp.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libswresample.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libswscale.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libtunnel.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libvo-amrwbenc.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libvpx.a" target-dir="lib" />
+    <source-file framework="true" src="src/ios/libs/lib/libx264.a" target-dir="lib" />
+
+    <source-file framework="true" src="src/ios/libs/include/linphone.a" target-dir="include" />
 
     <framework src="AVFoundation.framework" />
     <framework src="AudioToolbox.framework" />
@@ -238,12 +282,11 @@
     <framework src="libc++abi.tbd" />
     
     
-    <!--<framework src="src/ios/libs/apple-darwin/include" custom="true" />
-    <framework src="src/ios/libs/apple-darwin/include/belle-sip" custom="true" />
-    <framework src="src/ios/libs/apple-darwin/include/ortp" custom="true" />
-    <framework src="src/ios/libs/apple-darwin/include/linphone" custom="true" />
-    <framework src="src/ios/libs/apple-darwin/include/mediastreamer2" custom="true" />-->
-    
+    <!--<framework src="src/ios/libs/include" custom="true" />
+    <framework src="src/ios/libs/include/belle-sip" custom="true" />
+    <framework src="src/ios/libs/include/ortp" custom="true" />
+    <framework src="src/ios/libs/include/linphone" custom="true" />
+    <framework src="src/ios/libs/include/mediastreamer2" custom="true" />-->
     
   </platform>
 </plugin>
