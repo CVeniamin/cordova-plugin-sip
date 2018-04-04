@@ -131,17 +131,16 @@
       </feature>
     </config-file>
     
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include" target-dir="include" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/belle-sip" target-dir="include/belle-sip" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/ortp" target-dir="include/ortp" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/linphone" target-dir="include/linphone" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/mediastreamer2" target-dir="include/mediastreamer2" />
-    
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include" target-dir="libs" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/belle-sip/belle-sip.h" target-dir="libs/belle-sip" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/ortp/ortp.h" target-dir="libs/ortp" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/linphone/linphonecore.h" target-dir="libs/linphone" />
-    <source-file framework="true" src="src/ios/libs/apple-darwin/include/mediastreamer2" target-dir="libs/mediastreamer2" />
+    <header-file src="src/ios/libs/apple-darwin/include/linphone/lpconfig.h" /> 
+    <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore_utils.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/belle-sip/belle-sip.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/ortp/ortp.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/belle-sip/belle-sdp.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/belle-sip/belle-sip.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/mediastream.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/msaudiomixer.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/msaudiomixer.h" />
     
     <header-file src="src/ios/Linphone.h"/>
     <source-file src="src/ios/Linphone.m"/>
@@ -176,21 +175,6 @@
     <header-file src="src/ios/libs/apple-darwin/include/antlr3tokenstream.h"/>
     <header-file src="src/ios/libs/apple-darwin/include/antlr3treeparser.h"/>
     
-    <header-file src="src/ios/libs/apple-darwin/include/ortp/ortp.h"/>
-    
-
-    <header-file src="src/ios/libs/apple-darwin/include/linphone/lpconfig.h" target-dir="include/linphone" />
-    <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore.h" target-dir="include/linphone"/>
-    <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore_utils.h" target-dir="include/linphone"/>
-    
-    <header-file src="src/ios/libs/apple-darwin/include/belle-sip/belle-sdp.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/apple-darwin/include/belle-sip/belle-sip.h" target-dir="include/belle-sip" />
-    
-    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/mediastream.h" target-dir="include/mediastreamer2" />
-    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/msaudiomixer.h" target-dir="include/mediastreamer2" />
-    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/msaudiomixer.h" target-dir="include/mediastreamer2" />
-    
-
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsamr.a" target-dir="lib/mediastreamer/plugins" />
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsbcg729.a" target-dir="lib/mediastreamer/plugins" />
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsopenh264.a" target-dir="lib/mediastreamer/plugins" />
