@@ -137,11 +137,51 @@
         <param name="ios-package" value="Linphone"/>
       </feature>
     </config-file>
+    
+    <header-file src="src/ios/libs/apple-darwin/include/linphone/lpconfig.h" /> 
+    <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/linphone/linphonecore_utils.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/belle-sip/belle-sip.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/ortp/ortp.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/belle-sip/belle-sdp.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/belle-sip/belle-sip.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/mediastream.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/msaudiomixer.h" />
+    <header-file src="src/ios/libs/apple-darwin/include/mediastreamer2/msaudiomixer.h" />
+    
     <header-file src="src/ios/Linphone.h"/>
     <source-file src="src/ios/Linphone.m"/>
-
-    <header-file src="src/ios/libs/apple-darwin/include/" />
-
+    
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3baserecognizer.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3basetreeadaptor.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3bitset.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3collections.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3commontoken.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3commontree.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3commontreeadaptor.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3config.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3convertutf.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3cyclicdfa.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3debugeventlistener.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3defs.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3encodings.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3errors.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3exceptions.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3filestream.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3input.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3interfaces.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3intstream.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3lexer.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3memory.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3parser.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3parsetree.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3recognizersharedstate.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3rewritestreams.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3string.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3tokenstream.h"/>
+    <header-file src="src/ios/libs/apple-darwin/include/antlr3treeparser.h"/>
+    
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsamr.a" target-dir="lib/mediastreamer/plugins" />
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsbcg729.a" target-dir="lib/mediastreamer/plugins" />
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/mediastreamer/plugins/libmsopenh264.a" target-dir="lib/mediastreamer/plugins" />
@@ -180,7 +220,7 @@
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libvpx.a" target-dir="lib" />
     <source-file framework="true" src="src/ios/libs/apple-darwin/lib/libx264.a" target-dir="lib" />
 
-    <source-file src="src/ios/libs/apple-darwin/share/" />
+    <source-file framework="true" src="src/ios/libs/apple-darwin/include/linphone.a" target-dir="include" />
 
     <framework src="AVFoundation.framework" />
     <framework src="AudioToolbox.framework" />
@@ -196,5 +236,14 @@
     <framework src="libstdc++.6.tbd" />
     <framework src="libstdc++.tbd" />
     <framework src="libc++abi.tbd" />
+    
+    
+    <!--<framework src="src/ios/libs/apple-darwin/include" custom="true" />
+    <framework src="src/ios/libs/apple-darwin/include/belle-sip" custom="true" />
+    <framework src="src/ios/libs/apple-darwin/include/ortp" custom="true" />
+    <framework src="src/ios/libs/apple-darwin/include/linphone" custom="true" />
+    <framework src="src/ios/libs/apple-darwin/include/mediastreamer2" custom="true" />-->
+    
+    
   </platform>
 </plugin>
