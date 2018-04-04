@@ -1,11 +1,7 @@
 {
     "name": "cordova-plugin-sip",
+    "version": "1.0.2-dev",
     "description": "Cordova SIP communication plugin",
-    "version": "1.0.2",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/CVeniamin/cordova-plugin-sip.git"
-    },
     "cordova": {
         "id": "cordova-plugin-sip",
         "platforms": [
@@ -13,12 +9,24 @@
             "android"
         ]
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CVeniamin/cordova-plugin-sip.git"
+    },
     "keywords": [
         "ecosystem:cordova",
         "ecosystem:phonegap",
         "cordova-ios",
         "cordova-android"
     ],
-    "author": "CVeniamin",
-    "license": "MIT"
+    "engines": [{
+        "name": "cordova",
+        "version": ">=3.4.0"
+    }],
+    "author": "homerours",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CVeniamin/cordova-plugin-sip/issues"
+    },
+    "homepage": "https://github.com/CVeniamin/cordova-plugin-sip#readme"
 }
