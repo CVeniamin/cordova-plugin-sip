@@ -211,7 +211,7 @@
     <header-file src="src/ios/libs/include/antlr3defs.h"/>
     <header-file src="src/ios/libs/include/antlr3encodings.h"/>
     <header-file src="src/ios/libs/include/antlr3errors.h"/>
-    <header-file src="src/ios/libs/include/antlr3exceptions.h"/>
+    <header-file src="src/ios/libs/include/antlr3exception.h"/>
     <header-file src="src/ios/libs/include/antlr3filestream.h"/>
     <header-file src="src/ios/libs/include/antlr3input.h"/>
     <header-file src="src/ios/libs/include/antlr3interfaces.h"/>
