@@ -137,7 +137,7 @@
         <param name="ios-package" value="Linphone"/>
       </feature>
     </config-file>
-    
+
     <header-file src="src/ios/Linphone.h"/>
     <source-file src="src/ios/Linphone.m"/>
 
@@ -263,8 +263,6 @@
     <source-file framework="true" src="src/ios/libs/lib/libvo-amrwbenc.a" target-dir="lib" />
     <source-file framework="true" src="src/ios/libs/lib/libvpx.a" target-dir="lib" />
     <source-file framework="true" src="src/ios/libs/lib/libx264.a" target-dir="lib" />
-
-    <source-file framework="true" src="src/ios/libs/include/linphone.a" target-dir="include" />
 
     <framework src="AVFoundation.framework" />
     <framework src="AudioToolbox.framework" />
