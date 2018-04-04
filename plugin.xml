@@ -158,7 +158,7 @@
     <header-file src="src/ios/libs/include/belle-sip/http-message.h" />
     <header-file src="src/ios/libs/include/belle-sip/http-provider.h" />
     <header-file src="src/ios/libs/include/belle-sip/list.h" />
-    <header-file src="src/ios/libs/include/belle-sip/listerner.h" />
+    <header-file src="src/ios/libs/include/belle-sip/listener.h" />
     <header-file src="src/ios/libs/include/belle-sip/listeningpoint.h" />
     <header-file src="src/ios/libs/include/belle-sip/mainloop.h" />
     <header-file src="src/ios/libs/include/belle-sip/message.h" />
