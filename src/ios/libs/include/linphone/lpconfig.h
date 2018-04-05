@@ -24,7 +24,7 @@
 
 #ifndef LPCONFIG_H
 #define LPCONFIG_H
-#include "mediastreamer2/mscommon.h"
+#include "mscommon.h"
 #include <ortp/port.h>
 
 #ifndef LINPHONE_PUBLIC
