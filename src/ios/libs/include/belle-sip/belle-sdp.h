@@ -19,8 +19,8 @@
 #ifndef BELLE_SDP_H_
 #define BELLE_SDP_H_
 
-#include "belle-sip/defs.h"
-#include "belle-sip/list.h"
+#include "defs.h"
+#include "list.h"
 
 #define BELLE_SDP_CAST(obj,t) BELLE_SIP_CAST(obj,t)
 
