@@ -19,8 +19,8 @@
 #ifndef AUTHENTICATION_HELPER_H_
 #define AUTHENTICATION_HELPER_H_
 
-#include "belle-sip/defs.h"
-#include "belle-sip/belle-sip.h"
+#include "defs.h"
+#include "belle-sip.h"
 
 BELLE_SIP_BEGIN_DECLS
 
