@@ -19,12 +19,12 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef LINPHONECORE_H
 #define LINPHONECORE_H
 
-#include "ortp/ortp.h"
-#include "ortp/payloadtype.h"
-#include "mediastreamer2/mscommon.h"
-#include "mediastreamer2/msvideo.h"
-#include "mediastreamer2/mediastream.h"
-#include "mediastreamer2/bitratecontrol.h"
+#include "ortp.h"
+#include "payloadtype.h"
+#include "mscommon.h"
+#include "msvideo.h"
+#include "mediastream.h"
+#include "bitratecontrol.h"
 
 #ifdef IN_LINPHONE
 #include "sipsetup.h"
