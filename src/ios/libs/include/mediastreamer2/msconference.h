@@ -25,7 +25,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef msconference_h
 #define msconference_h
 
-#include "mediastreamer2/mediastream.h"
+#include "mediastream.h"
 
 /**
  * @addtogroup mediastreamer2_audio_conference

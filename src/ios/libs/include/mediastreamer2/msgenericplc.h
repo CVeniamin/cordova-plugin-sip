@@ -21,7 +21,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef msgenericplc_h
 #define msgenericplc_h
 
-#include "mediastreamer2/msvaddtx.h"
+#include "msvaddtx.h"
 
 #define MS_GENERIC_PLC_SET_CN	MS_FILTER_METHOD(MS_GENERIC_PLC_ID, 0, MSCngData)
 

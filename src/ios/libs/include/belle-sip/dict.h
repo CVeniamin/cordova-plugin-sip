@@ -24,7 +24,7 @@
 #endif
 
 
-#include "belle-sip/object.h"
+#include "object.h"
 
 BELLE_SIP_BEGIN_DECLS
 

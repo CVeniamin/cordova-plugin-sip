@@ -21,7 +21,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #define msfactory_h
 
 
-#include "mediastreamer2/msfilter.h"
+#include "msfilter.h"
 
 
 /*do not use these fields directly*/

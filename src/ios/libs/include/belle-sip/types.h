@@ -18,9 +18,9 @@
 #ifndef BELLE_SIP_TYPES_H
 #define BELLE_SIP_TYPES_H
 
-#include "belle-sip/defs.h"
-#include "belle-sip/object.h"
-#include "belle-sip/dict.h"
+#include "defs.h"
+#include "object.h"
+#include "dict.h"
 
 /**
  * This enum declares all object types used in belle-sip (see belle_sip_object_t)

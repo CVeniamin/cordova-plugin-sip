@@ -21,7 +21,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef ms2_ratecontrol
 #define ms2_ratecontrol
 
-#include "mediastreamer2/msfilter.h"
+#include "msfilter.h"
 #include <ortp/ortp.h>
 
 #ifdef __cplusplus

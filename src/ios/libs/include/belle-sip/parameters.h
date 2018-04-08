@@ -19,8 +19,8 @@
 #ifndef PARAMETERS_H_
 #define PARAMETERS_H_
 
-#include "belle-sip/utils.h"
-#include "belle-sip/list.h"
+#include "utils.h"
+#include "list.h"
 
 BELLE_SIP_BEGIN_DECLS
 

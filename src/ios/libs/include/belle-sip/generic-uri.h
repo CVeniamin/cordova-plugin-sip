@@ -20,9 +20,9 @@
 #define BELLE_GENERIC_URI_H_
 
 
-#include "belle-sip/defs.h"
-#include "belle-sip/list.h"
-#include "belle-sip/utils.h"
+#include "defs.h"
+#include "list.h"
+#include "utils.h"
 
 
 

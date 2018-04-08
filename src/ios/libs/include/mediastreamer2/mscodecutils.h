@@ -20,7 +20,7 @@
 #ifndef mscodecutils_h
 #define mscodecutils_h
 
-#include "mediastreamer2/mscommon.h"
+#include "mscommon.h"
 
 #ifdef __cplusplus
 extern "C"{

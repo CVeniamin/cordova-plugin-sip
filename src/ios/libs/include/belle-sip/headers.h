@@ -19,11 +19,11 @@
 #ifndef HEADERS_H_
 #define HEADERS_H_
 
-#include "belle-sip/defs.h"
-#include "belle-sip/sip-uri.h"
-#include "belle-sip/generic-uri.h"
-#include "belle-sip/utils.h"
-#include "belle-sip/parameters.h"
+#include "defs.h"
+#include "sip-uri.h"
+#include "generic-uri.h"
+#include "utils.h"
+#include "parameters.h"
 
 #include <time.h>
 

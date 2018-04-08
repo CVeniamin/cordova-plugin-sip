@@ -21,7 +21,7 @@
 #define ms_srtp_h
 
 #include <ortp/rtpsession.h>
-#include "mediastreamer2/mscommon.h"
+#include "mscommon.h"
 
 #ifdef __cplusplus
 extern "C"{

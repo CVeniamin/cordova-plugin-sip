@@ -19,10 +19,10 @@
 #ifndef BELLE_SIP_URI_H_
 #define BELLE_SIP_URI_H_
 
-#include "belle-sip/defs.h"
-#include "belle-sip/list.h"
-#include "belle-sip/utils.h"
-#include "belle-sip/types.h"
+#include "defs.h"
+#include "list.h"
+#include "utils.h"
+#include "types.h"
 
 BELLE_SIP_BEGIN_DECLS
 

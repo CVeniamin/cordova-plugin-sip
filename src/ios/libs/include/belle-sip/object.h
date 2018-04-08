@@ -19,8 +19,8 @@
 #ifndef belle_sip_object_h
 #define belle_sip_object_h
 
-#include "belle-sip/defs.h"
-#include "belle-sip/utils.h"
+#include "defs.h"
+#include "utils.h"
 
 /*
  * typedefs, macros and functions for object definition and manipulation.

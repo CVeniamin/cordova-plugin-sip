@@ -20,10 +20,10 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef msfilter_h
 #define msfilter_h
 
-#include "mediastreamer2/mscommon.h"
-#include "mediastreamer2/msqueue.h"
-#include "mediastreamer2/allfilters.h"
-#include "mediastreamer2/formats.h"
+#include "mscommon.h"
+#include "msqueue.h"
+#include "allfilters.h"
+#include "formats.h"
 
 /**
  * @file msfilter.h

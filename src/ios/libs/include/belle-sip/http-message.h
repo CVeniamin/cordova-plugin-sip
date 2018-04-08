@@ -18,7 +18,7 @@
 #ifndef BELLE_HTTP_MESSAGE_H
 #define BELLE_HTTP_MESSAGE_H
 
-#include "belle-sip/generic-uri.h"
+#include "generic-uri.h"
 
 #define BELLE_HTTP_REQUEST(obj)		BELLE_SIP_CAST(obj,belle_http_request_t)
 #define BELLE_HTTP_RESPONSE(obj)	BELLE_SIP_CAST(obj,belle_http_response_t)
