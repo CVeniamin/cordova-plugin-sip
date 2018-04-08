@@ -20,7 +20,7 @@
 #ifndef ms_srtp_h
 #define ms_srtp_h
 
-#include <ortp/rtpsession.h>
+#include "rtpsession.h"
 #include "mscommon.h"
 
 #ifdef __cplusplus

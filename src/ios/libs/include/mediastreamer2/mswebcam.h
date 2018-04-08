@@ -20,8 +20,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef webcam_h
 #define webcam_h
 
-#include <mediastreamer2/mscommon.h>
-#include <mediastreamer2/msfactory.h>
+#include "mscommon.h"
+#include "msfactory.h"
 
 /**
  * @file mswebcam.h

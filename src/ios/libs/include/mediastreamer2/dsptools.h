@@ -52,7 +52,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef ms_dsptools_h
 #define ms_dsptools_h
 
-#include <mediastreamer2/mscommon.h>
+#include "mscommon.h"
 
 typedef int32_t ms_int32_t;
 

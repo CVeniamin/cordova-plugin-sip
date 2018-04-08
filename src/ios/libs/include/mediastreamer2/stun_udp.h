@@ -38,8 +38,8 @@ typedef int socklen_t;
 #endif
 #endif
 
-#include <mediastreamer2/mscommon.h>
-#include <ortp/port.h>
+#include "mscommon.h"
+#include "port.h"
 
 #if defined(_WIN32) || defined(_WIN32_WCE)
 

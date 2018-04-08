@@ -20,7 +20,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef msrtt4103_h
 #define msrtt4103_h
 
-#include <mediastreamer2/msfilter.h>
+#include "msfilter.h"
 
 #define TS_FLAG_NOTFIRST 0x01
 #define TS_FLAG_NOCALLBACK 0x02

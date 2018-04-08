@@ -146,54 +146,99 @@
     <header-file src="src/ios/libs/include/linphone/linphonecore_utils.h" />
 
     <!--Belle-sip-->
-    <header-file src="src/ios/libs/include/belle-sip/auth-helper.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/belle-sdp.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/belle-sip.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/bodyhandler.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/defs.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/dict.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/generic-uri.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/headers.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/http-listener.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/http-message.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/http-provider.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/list.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/listener.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/listeningpoint.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/mainloop.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/message.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/object.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/parameters.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/provider.h"  target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/resolver.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/sip-uri.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/sipstack.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/transaction.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/types.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/utils.h" target-dir="include/belle-sip" />
-    <header-file src="src/ios/libs/include/belle-sip/wakelock.h" target-dir="include/belle-sip" />
+    <header-file src="src/ios/libs/include/belle-sip/auth-helper.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/belle-sdp.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/belle-sip.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/bodyhandler.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/defs.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/dict.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/generic-uri.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/headers.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/http-listener.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/http-message.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/http-provider.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/list.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/listener.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/listeningpoint.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/mainloop.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/message.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/object.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/parameters.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/provider.h" />
+    <header-file src="src/ios/libs/include/belle-sip/resolver.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/sip-uri.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/sipstack.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/transaction.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/types.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/utils.h"/>
+    <header-file src="src/ios/libs/include/belle-sip/wakelock.h"/>
 
     <!--ortp-->
-    <header-file src="src/ios/libs/include/ortp/b64.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/event.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/logging.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/ortp.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/payloadtype.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/port.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/rtcp.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/rtp.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/rtpprofile.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/rtpsession.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/rtpsignaltable.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/sessionset.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/str_utils.h" target-dir="include/ortp" />
-    <header-file src="src/ios/libs/include/ortp/telephonyevents.h" target-dir="include/ortp" />
+    <header-file src="src/ios/libs/include/ortp/b64.h" />
+    <header-file src="src/ios/libs/include/ortp/event.h"  />
+    <header-file src="src/ios/libs/include/ortp/logging.h"  />
+    <header-file src="src/ios/libs/include/ortp/ortp.h"  />
+    <header-file src="src/ios/libs/include/ortp/payloadtype.h"  />
+    <header-file src="src/ios/libs/include/ortp/port.h" />
+    <header-file src="src/ios/libs/include/ortp/rtcp.h" />
+    <header-file src="src/ios/libs/include/ortp/rtp.h" />
+    <header-file src="src/ios/libs/include/ortp/rtpprofile.h"  />
+    <header-file src="src/ios/libs/include/ortp/rtpsession.h" />
+    <header-file src="src/ios/libs/include/ortp/rtpsignaltable.h" />
+    <header-file src="src/ios/libs/include/ortp/sessionset.h"  />
+    <header-file src="src/ios/libs/include/ortp/str_utils.h" />
+    <header-file src="src/ios/libs/include/ortp/telephonyevents.h" />
 
     <!--mediastream-->
-    <header-file src="src/ios/libs/include/mediastreamer2/mediastream.h" target-dir="include/mediastreamer2" />
-    <header-file src="src/ios/libs/include/mediastreamer2/mscommon.h" target-dir="include/mediastreamer2"/>
-    <header-file src="src/ios/libs/include/mediastreamer2/msvideo.h" target-dir="include/mediastreamer2"/>
-    <header-file src="src/ios/libs/include/mediastreamer2/bitratecontrol.h" target-dir="include/mediastreamer2"/>
+    <header-file src="src/ios/libs/include/mediastreamer2/allfilters.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/bitratecontrol.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/bits_rw.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/dsptools.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/dtmfgen.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/flowcontrol.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/formats.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/ice.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/mediastream.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/ms_srtp.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msaudiomixer.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/mschanadapter.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/mscodeutils.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/mscommon.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msconference.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msequalizer.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/mseventqueue.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msextdisplay.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msfactory.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msfileplayer.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msfilerec.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msfilter.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msgenericplc.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msinterfaces.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msitc.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msjava.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msjpegwriter.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msmediaplayer.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msqueue.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msrtp.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msrtt4103.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/mssndcard.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/mstee.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msticker.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/mstonedetector.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msutils.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msvaddtx.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msvideo.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msvideopresets.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/msvolume.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/mswebcam.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/qualityindicator.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/rfc3984.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/stun_udp.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/stun.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/upnp_igd.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/videostarter.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/x11_helper.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/zrtp.h" />
 
     <!--antlr3-->
     <header-file src="src/ios/libs/include/antlr3.h"/>

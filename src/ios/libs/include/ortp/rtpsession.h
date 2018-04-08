@@ -31,15 +31,15 @@
 #define RTPSESSION_H
 
 
-#include <ortp/port.h>
-#include <ortp/rtp.h>
-#include <ortp/payloadtype.h>
-#include <ortp/rtpprofile.h>
-#include <ortp/sessionset.h>
-#include <ortp/rtcp.h>
-#include <ortp/str_utils.h>
-#include <ortp/rtpsignaltable.h>
-#include <ortp/event.h>
+#include "port.h"
+#include "rtp.h"
+#include "payloadtype.h"
+#include "rtpprofile.h"
+#include "sessionset.h"
+#include "rtcp.h"
+#include "str_utils.h"
+#include "rtpsignaltable.h"
+#include "event.h"
 
 
 #define ORTP_AVPF_FEATURE_NONE 0

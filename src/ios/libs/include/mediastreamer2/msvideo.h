@@ -20,7 +20,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef msvideo_h
 #define msvideo_h
 
-#include <mediastreamer2/msfilter.h>
+#include "msfilter.h"
 
 
 #if defined(__arm__) || defined(__arm64__) || defined(_M_ARM)

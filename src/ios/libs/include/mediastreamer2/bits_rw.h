@@ -21,7 +21,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #if !defined(_BITS_RW_H_)
 #define _BITS_RW_H_
 
-#include <ortp/port.h>
+#include "port.h"
 
 typedef struct ms_bits_reader{
 	const uint8_t *buffer;

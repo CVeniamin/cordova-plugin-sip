@@ -20,7 +20,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef msvolume_h
 #define msvolume_h
 
-#include <mediastreamer2/msfilter.h>
+#include "msfilter.h"
 
 /**
  * The Volume MSFilter can do:

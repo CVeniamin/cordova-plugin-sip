@@ -21,9 +21,9 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef VIDEOSTARTER_H
 #define VIDEOSTARTER_H
 
-#include <mediastreamer2/mscommon.h>
-#include <mediastreamer2/msfilter.h>
-#include <mediastreamer2/msqueue.h>
+#include "mscommon.h"
+#include "msfilter.h"
+#include "msqueue.h"
 
 /**
  * The goal of this small object is to tell when to send I frames at startup:

@@ -21,7 +21,7 @@
 #define STR_UTILS_H
 
 
-#include <ortp/port.h>
+#include "port.h"
 #if defined(ORTP_TIMESTAMP)
 #include <time.h>
 #endif

@@ -21,7 +21,7 @@
 #ifndef RTCP_H
 #define RTCP_H
 
-#include <ortp/port.h>
+#include "port.h"
 
 #define RTCP_MAX_RECV_BUFSIZE 1500
 

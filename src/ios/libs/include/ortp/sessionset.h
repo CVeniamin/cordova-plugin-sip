@@ -25,7 +25,7 @@
 #define SESSIONSET_H
 
 
-#include <ortp/rtpsession.h>
+#include "rtpsession.h"
 
 #ifdef __cplusplus
 extern "C"{

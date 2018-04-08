@@ -26,7 +26,7 @@
 #ifndef ORTP_LOGGING_H
 #define ORTP_LOGGING_H
 
-#include <port.h>
+#include "port.h"
 
 #ifndef ORTP_LOG_DOMAIN
 #define ORTP_LOG_DOMAIN NULL

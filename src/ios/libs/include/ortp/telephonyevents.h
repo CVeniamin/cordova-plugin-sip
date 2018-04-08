@@ -27,7 +27,7 @@
 #ifndef TELEPHONYEVENTS_H
 #define TELEPHONYEVENTS_H
 
-#include <ortp/rtpsession.h>
+#include "rtpsession.h"
 
 
 struct _telephone_event

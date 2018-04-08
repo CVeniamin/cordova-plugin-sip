@@ -21,21 +21,21 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #ifndef MEDIASTREAM_H
 #define MEDIASTREAM_H
 
-#include <ortp/ortp.h>
-#include <ortp/event.h>
+#include "ortp.h"
+#include "event.h"
 
-#include <mediastreamer2/msfactory.h>
-#include <mediastreamer2/msfilter.h>
-#include <mediastreamer2/msticker.h>
-#include <mediastreamer2/mssndcard.h>
-#include <mediastreamer2/mswebcam.h>
-#include <mediastreamer2/msvideo.h>
-#include <mediastreamer2/bitratecontrol.h>
-#include <mediastreamer2/qualityindicator.h>
-#include <mediastreamer2/ice.h>
-#include <mediastreamer2/zrtp.h>
-#include <mediastreamer2/dtls_srtp.h>
-#include <mediastreamer2/ms_srtp.h>
+#include "msfactory.h"
+#include "msfilter.h"
+#include "msticker.h"
+#include "mssndcard.h"
+#include "mswebcam.h"
+#include "msvideo.h"
+#include "bitratecontrol.h"
+#include "qualityindicator.h"
+#include "ice.h"
+#include "zrtp.h"
+#include "dtls_srtp.h"
+#include "ms_srtp.h"
 
 
 #define PAYLOAD_TYPE_FLAG_CAN_RECV	PAYLOAD_TYPE_USER_FLAG_1
