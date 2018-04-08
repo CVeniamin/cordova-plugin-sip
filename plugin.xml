@@ -202,7 +202,7 @@
     <header-file src="src/ios/libs/include/mediastreamer2/ms_srtp.h" />
     <header-file src="src/ios/libs/include/mediastreamer2/msaudiomixer.h" />
     <header-file src="src/ios/libs/include/mediastreamer2/mschanadapter.h" />
-    <header-file src="src/ios/libs/include/mediastreamer2/mscodeutils.h" />
+    <header-file src="src/ios/libs/include/mediastreamer2/mscodecutils.h" />
     <header-file src="src/ios/libs/include/mediastreamer2/mscommon.h" />
     <header-file src="src/ios/libs/include/mediastreamer2/msconference.h" />
     <header-file src="src/ios/libs/include/mediastreamer2/msequalizer.h" />
