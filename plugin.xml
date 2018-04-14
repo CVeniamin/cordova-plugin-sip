@@ -44,7 +44,7 @@
     <source-file src="src/android/libraries/armeabi/liblinphone-armeabi.so" 
     target-dir="app/src/main/jniLibs/armeabi/" />
 
-    <source-file src="src/android/libraries/arm64-v8a/libbctoolbox-arm64-v8a.so" target-dir="app/src/main/jniLibs/arm64-v8a/" />
+<!--     <source-file src="src/android/libraries/arm64-v8a/libbctoolbox-arm64-v8a.so" target-dir="app/src/main/jniLibs/arm64-v8a/" />
     <source-file src="src/android/libraries/arm64-v8a/libbctoolbox-tester-arm64-v8a.so" target-dir="app/src/main/jniLibs/arm64-v8a/" />
     <source-file src="src/android/libraries/arm64-v8a/libgnustl_shared.so" 
     target-dir="app/src/main/jniLibs/arm64-v8a/" />
@@ -57,8 +57,20 @@
     <source-file src="src/android/libraries/arm64-v8a/libmswebrtc.so" 
     target-dir="app/src/main/jniLibs/arm64-v8a/" />
     <source-file src="src/android/libraries/arm64-v8a/libortp-arm64-v8a.so" target-dir="app/src/main/jniLibs/arm64-v8a/" />
+ -->
+    
+    <source-file src="src/android/libraries/arm64-v8a/libbctoolbox.so" target-dir="app/src/main/jniLibs/arm64-v8a/" />
+    <source-file src="src/android/libraries/arm64-v8a/libgnustl_shared.so" target-dir="app/src/main/jniLibs/arm64-v8a/" />
+    <source-file src="src/android/libraries/arm64-v8a/liblinphone.so" target-dir="app/src/main/jniLibs/arm64-v8a/" />
+    <source-file src="src/android/libraries/arm64-v8a/libmediastreamer_base.so" target-dir="app/src/main/jniLibs/arm64-v8a/" />
+    <source-file src="src/android/libraries/arm64-v8a/libmediastreamer_voip.so" target-dir="app/src/main/jniLibs/arm64-v8a/" />
+    <source-file src="src/android/libraries/arm64-v8a/libmssilk.so" 
+    target-dir="app/src/main/jniLibs/arm64-v8a/" />
+    <source-file src="src/android/libraries/arm64-v8a/libmswebrtc.so" 
+    target-dir="app/src/main/jniLibs/arm64-v8a/" />
+    <source-file src="src/android/libraries/arm64-v8a/libortp.so" target-dir="app/src/main/jniLibs/arm64-v8a/" />
 
-    <source-file src="src/android/libraries/armeabi-v7a/libbctoolbox-armeabi-v7a.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
+<!--     <source-file src="src/android/libraries/armeabi-v7a/libbctoolbox-armeabi-v7a.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
     <source-file src="src/android/libraries/armeabi-v7a/libbctoolbox-tester-armeabi-v7a.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
     <source-file src="src/android/libraries/armeabi-v7a/libgnustl_shared.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
     <source-file src="src/android/libraries/armeabi-v7a/liblinphone-armeabi-v7a.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
@@ -70,8 +82,21 @@
     <source-file src="src/android/libraries/armeabi-v7a/libmswebrtc.so" 
     target-dir="app/src/main/jniLibs/armeabi-v7a/" />
     <source-file src="src/android/libraries/armeabi-v7a/libortp-armeabi-v7a.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
+ -->
+    
+    <source-file src="src/android/libraries/armeabi-v7a/libbctoolbox.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
+    <source-file src="src/android/libraries/armeabi-v7a/libgnustl_shared.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
+    <source-file src="src/android/libraries/armeabi-v7a/liblinphone.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
+    <source-file src="src/android/libraries/armeabi-v7a/liblinphonetester.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
+    <source-file src="src/android/libraries/armeabi-v7a/libmediastreamer_base.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
+    <source-file src="src/android/libraries/armeabi-v7a/libmediastreamer_voip.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
+    <source-file src="src/android/libraries/armeabi-v7a/libmssilk.so" 
+    target-dir="app/src/main/jniLibs/armeabi-v7a/" />
+    <source-file src="src/android/libraries/armeabi-v7a/libmswebrtc.so" 
+    target-dir="app/src/main/jniLibs/armeabi-v7a/" />
+    <source-file src="src/android/libraries/armeabi-v7a/libortp.so" target-dir="app/src/main/jniLibs/armeabi-v7a/" />
 
-    <source-file src="src/android/libraries/x86/libbctoolbox-tester-x86.so" target-dir="app/src/main/jniLibs/x86/" />
+<!--     <source-file src="src/android/libraries/x86/libbctoolbox-tester-x86.so" target-dir="app/src/main/jniLibs/x86/" />
     <source-file src="src/android/libraries/x86/libbctoolbox-x86.so" target-dir="app/src/main/jniLibs/x86/" />
     <source-file src="src/android/libraries/x86/libgnustl_shared.so" target-dir="app/src/main/jniLibs/x86/" />
     <source-file src="src/android/libraries/x86/liblinphonetester-x86.so" target-dir="app/src/main/jniLibs/x86/" />
@@ -80,7 +105,16 @@
     <source-file src="src/android/libraries/x86/libmediastreamer_voip-x86.so" target-dir="app/src/main/jniLibs/x86/" />
     <source-file src="src/android/libraries/x86/libmssilk.so" target-dir="app/src/main/jniLibs/x86/" />
     <source-file src="src/android/libraries/x86/libmswebrtc.so" target-dir="app/src/main/jniLibs/x86/" />
-    <source-file src="src/android/libraries/x86/libortp-x86.so" target-dir="app/src/main/jniLibs/x86/" />
+    <source-file src="src/android/libraries/x86/libortp-x86.so" target-dir="app/src/main/jniLibs/x86/" /> -->
+    
+    <source-file src="src/android/libraries/x86/libbctoolbox.so" target-dir="app/src/main/jniLibs/x86/" />
+    <source-file src="src/android/libraries/x86/libgnustl_shared.so" target-dir="app/src/main/jniLibs/x86/" />
+    <source-file src="src/android/libraries/x86/liblinphone.so" target-dir="app/src/main/jniLibs/x86/" />
+    <source-file src="src/android/libraries/x86/libmediastreamer_base.so" target-dir="app/src/main/jniLibs/x86/" />
+    <source-file src="src/android/libraries/x86/libmediastreamer_voip.so" target-dir="app/src/main/jniLibs/x86/" />
+    <source-file src="src/android/libraries/x86/libmssilk.so" target-dir="app/src/main/jniLibs/x86/" />
+    <source-file src="src/android/libraries/x86/libmswebrtc.so" target-dir="app/src/main/jniLibs/x86/" />
+    <source-file src="src/android/libraries/x86/libortp.so" target-dir="app/src/main/jniLibs/x86/" />
       
     <!-- <lib-file src="src/android/libraries/arm64-v8a/libbctoolbox-arm64-v8a.so" arch="x64"/>
     <lib-file src="src/android/libraries/arm64-v8a/libbctoolbox-tester-arm64-v8a.so" arch="x64"/>
