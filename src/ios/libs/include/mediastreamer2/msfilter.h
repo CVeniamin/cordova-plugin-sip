@@ -759,8 +759,8 @@ MS2_PUBLIC void ms_filter_postpone_task(MSFilter *f, MSFilterFunc taskfunc);
 }
 #endif
 
-#include "mediastreamer2/msinterfaces.h"
-#include "mediastreamer2/msfactory.h"
+#include "msinterfaces.h"
+#include "msfactory.h"
 /* used by awk script in Makefile.am to generate alldescs.c */
 #define MS_FILTER_DESC_EXPORT(desc)
 
